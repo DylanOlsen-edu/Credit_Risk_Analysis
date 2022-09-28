@@ -17,5 +17,5 @@ Credit risk poses a classification problem that’s inherently imbalanced. This 
     * Precision/Recall (High-Risk Loans)
       * 99%/99%
 ## Summary
-The logistic regression model predicted healthy loans(0) with 100 percent accuracy with 99 percent recall. Because high risk loans have a smaller sample size, the model predicted high-risk loans(1) with 85 percent accuracy and 91 percent recall. To make a more clear prediction, we use the oversampling technique with a logistic regression model. The resampled logistic regression model was able to predict both healthy/high-risk loans with 99% accuracy/recall.
+The logistic regression model predicted healthy loans(0) with 100 percent accuracy with 99 percent recall. Because high risk loans have a smaller sample size, the model predicted high-risk loans(1) with 85 percent accuracy and 91 percent recall. To make a more clear prediction, we use the oversampling technique with a logistic regression model. The resampled logistic regression model was able to predict both healthy/high-risk loans with 99% precision/recall. I would recommened using the Oversampled Logistic Regression Model due to its high precision/recall.
     
